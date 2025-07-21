@@ -1,0 +1,287 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    width: 100px;
+    height: 50px;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    background-image: url("amazon.com_logo.png");
+    background-size: cover;
+}
+.border{
+    border: 1px solid transparent;
+    border-radius: 5%;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+/** box-2 **/
+.fa-solid{
+    color: white;
+}
+.address-first{
+    color: #cccccc;
+    font-size: 0.63rem;
+    margin-left: 15px;
+}
+
+.address-second{
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* Box 3 */
+.nav-search{
+    display: flex;
+    height: 40px;
+}
+.nav-search:hover{
+    border: 2px solid #FF9900;
+    border-radius: 6px;
+}
+
+
+.search-icon{
+    display: flex;
+    background-color: #FF9900;
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 1.3rem;
+}
+.search-select{
+    width: 50px;
+    background-color: #E6E6E6;
+    border: 0px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.search-input{
+    font-size: 1rem;
+    width: 500px;
+    border: 0px;
+    border-radius: 0;
+}
+
+/** box-4 / box-5 **/
+span{
+    color: white;
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart{
+    display: flex;
+    align-items: end;
+    font-weight: 700;
+}
+
+.cart-icon{
+    font-size: 1.7rem;
+}
+body{
+    background-color: #d884fc;
+}
+
+
+
+
+
+
+
+/* Down Navigation Bar */
+.down-nav-bar{
+    height: 39px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+}
+.random-biswas-icon{
+    display: flex;
+    width: 47px;
+    height: 47px;
+    align-items: center;
+    margin-left: 20px;
+}
+.biswas-icon-all{
+    margin:5px;
+    color: white;
+    font-size: 0.85rem;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+    margin: 5px 0px 6px ;
+    padding: 5px 8px;
+    align-self: flex-end;
+}
+
+
+/* Hero Section */
+.hero-section{
+    background-image: url("amazon_img1.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    height: 350px;
+    justify-content: center ;
+    align-items: flex-end;
+}
+
+.hero-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+    font-size: 0.85rem;
+    background-color: white;
+    color: black;
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+.hero-message a{
+    text-decoration: none;
+    color: #007185;
+}
+
+/* Shopping Section */
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+
+.box-image{
+    height: 300px;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+
+.box-content{
+    padding: 20px;
+}
+
+.content-head{
+    font-size: 21px;
+    color: #0F1111;
+    padding-bottom: 20px;
+}
+.shop-cataegory{
+    font-size: 13px;
+    color: #2162A1;
+}
+
+/* Footer Panel */
+.foot-panel1{
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475a;
+    color: #FFFFFF;
+    padding: 15px 0px;
+    font-size: 13px;
+}
+
+.foot-panel2{
+    height: 300px;
+    display: flex;
+    background-color: #232f3e;
+}
+
+.foot-panel3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131A22;
+}
+
+.Foot-head{
+    width: 25%;
+    font-size: 12px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin: 6px 0px 14px;
+    margin-top: 40px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.Foot-head a{
+    color: #DDDDDD;
+    text-decoration: none;
+    font-size: 14px;
+}
+.Foot-head h2{
+     color: #FFFFFF;
+     margin-bottom: 20px;
+}
+
+.foot-link{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+/* Footer Logo Section */
+.foot-panel2-2{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232f3e;
+}
+
+.footer-box{
+    width: 130px;
+    height: 35px;
+    margin: 20px;
+    font-size: 13px;
+    color: #CCCCCC;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon{
+    margin: 0px 7.8px;
+}
