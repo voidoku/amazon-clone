@@ -22,8 +22,7 @@ This is a basic clone of the Amazon home page built using only HTML and CSS.
 
 ## Screenshot
 
-![Amazon Clone Screenshot](sceenshot-1.png)
-![Amazon Clone Screenshot](screenshot-2.png)
+<img src="screenshot.png" alt="Amazon Clone Screenshot" width="600">
 
 ## Author
 
